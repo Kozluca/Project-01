@@ -34,7 +34,7 @@ namespace Project_01
         {
             Random rnd = new Random();    // Rastgele bir sayı ürettik
             int RastgeleSayı = rnd.Next(0, 100);  // Rastgele sayının 0-99 arasında olmasını sağladık
-            Console.WriteLine("RASTGELESAYI: " + RastgeleSayı); //Ekrana Rastgele Sayıyı Yazdırdık
+           // Console.WriteLine("RASTGELESAYI: " + RastgeleSayı); //Ekrana Rastgele Sayıyı Yazdırır ,doğru çalıştığını kontrol etmek için, 
             int Haksayısı = 5; // Kullanıcının Hak Sayısını Belirledik
             for (int i = 0; i < 5; i++) //For Döngüsünde Şartların Sağlanıp Sağlanmadığını 5 kere kontrol ettik
             {
